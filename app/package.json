@@ -1,0 +1,14 @@
+{
+    "name": "my-aws-3-tier-app",
+    "version": "1.0.0",
+    "description": "A 3-tier web application on AWS (ECS, ALB, RDS).",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "mysql2": "^2.3.3"
+    }
+  }
+  
