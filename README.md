@@ -84,9 +84,7 @@ Below is a **step-by-step guide**. Even if you’re brand new to AWS, follow alo
 
 1. **Create a new user** (e.g., `admin-user`) with **AdministratorAccess**.  
 2. **Log out** of the root account, then **log in** with your new `admin-user`.  
-3. (Optional) **Set up AWS CLI** with `aws configure` using this user’s Access Key/Secret Key.
-
-> **Best Practice**: Avoid using the root account beyond initial setup. The new admin user is for daily tasks.
+3. **Set up AWS CLI** with `aws configure` using this user’s Access Key/Secret Key.
 
 ### 5.3 Create (or Use) a VPC and Subnets
 
